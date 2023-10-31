@@ -14,7 +14,7 @@ function App() {
     return (
         <div className="mx-auto font-poppins">
             <span
-                className={`lg:hidden z-[99999] relative border-first inline-block ${
+                className={`lg:hidden z-[99999] fixed border-first inline-block ${
                     openMenu ? "ml-[90px] md:ml-[110px]" : "ml-[20px]"
                 } top-[30px]`}
                 onClick={() => setOpenMenu(!openMenu)}
