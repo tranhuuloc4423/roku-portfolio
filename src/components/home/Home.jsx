@@ -15,7 +15,7 @@ const Home = () => {
                 <div className="w-[200px]  md:w-[300px] bg-[#FFDEE9] bg-gradient-to-b from-[#FFDEE9] to-[#B5FFFC] rounded-3xl overflow-hidden">
                     <img src={avatar} alt="avatar" className="object-cover" />
                 </div>
-                <div className="font-bold text-h1">Roku</div>
+                <div className="font-bold text-h1">Trần Hữu Lộc</div>
                 <div className="font-normal text-h3">
                     I'm a Front-End developer
                 </div>

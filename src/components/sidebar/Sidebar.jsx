@@ -67,7 +67,7 @@ const Sidebar = ({ openMenu }) => {
                             </Link>
                         </li>
                     </ul>
-                    <div className="font-bold text-h1">R.</div>
+                    <div className="font-bold text-h1"></div>
                 </div>
             )}
         </>

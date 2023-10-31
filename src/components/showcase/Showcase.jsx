@@ -14,7 +14,7 @@ const Showcase = () => {
             id="showcase"
             className="h-screen small:mt-[800px] md:mt-[0] lg:mt-4 flex flex-col items-center justify-center text-title md:w-[90%] mx-auto"
         >
-            <div className="font-bold text-h1">Recent Projects</div>
+            <div className="font-bold text-h1">Các dự án cá nhân</div>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
