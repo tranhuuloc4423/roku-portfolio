@@ -11,6 +11,7 @@ import { icons } from "./icons";
 const { AiOutlineMenu } = icons;
 function App() {
     const [openMenu, setOpenMenu] = useState(true);
+    document.title = "Roku - portfolio";
     return (
         <div className="mx-auto font-poppins">
             <span
