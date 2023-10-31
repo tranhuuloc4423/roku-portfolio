@@ -1,4 +1,4 @@
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiOutlineMenu } from "react-icons/ai";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { BiBriefcase } from "react-icons/bi";
 import { IoLayersOutline } from "react-icons/io5";
@@ -17,4 +17,5 @@ export const icons = {
     BsInstagram,
     BsLinkedin,
     AiOutlineUser,
+    AiOutlineMenu,
 };
