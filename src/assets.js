@@ -52,11 +52,12 @@ const projects = [
         ),
         steps: (
             <>
-                <div>setup dự án với reactjs.</div>
+                <div>- setup dự án với reactjs.</div>
                 <div>
-                    Tạo các component (thành phần) để hiển thị ra giao diện web.
+                    - Tạo các component (thành phần) để hiển thị ra giao diện
+                    web.
                 </div>
-                <div>Viết code phần logic cho game.</div>
+                <div>- Viết code phần logic cho game.</div>
             </>
         ),
         completed: (
@@ -94,9 +95,9 @@ const projects = [
         ),
         steps: (
             <>
-                <div>setup dự án với jquery.</div>
-                <div>Setup và call api từ the movie database (TMDB).</div>
-                <div>Viết code phần logic cho web.</div>
+                <div>- Setup dự án với jquery.</div>
+                <div>- Setup và call api từ the movie database (TMDB).</div>
+                <div>- Viết code phần logic cho web.</div>
             </>
         ),
         completed: (
@@ -133,9 +134,9 @@ const projects = [
         ),
         steps: (
             <>
-                <div>Setup môi trường dự án với reactjs.</div>
-                <div>Tạo các component (thành phần) để hiển thị.</div>
-                <div>Viết các phần logic xử lý các sự kiện về âm thanh.</div>
+                <div>- Setup môi trường dự án với reactjs.</div>
+                <div>- Tạo các component (thành phần) để hiển thị.</div>
+                <div>- Viết các phần logic xử lý các sự kiện về âm thanh.</div>
             </>
         ),
         completed: (
