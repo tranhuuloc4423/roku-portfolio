@@ -1,32 +1,24 @@
 import "./App.css";
-import Home from "./components/home/Home";
-import Sidebar from "./components/sidebar/Sidebar";
-import About from "./components/about/About";
 import "./index.css";
+import Home from "./components/home/Home";
+import Skills from "./components/skills/Skills";
+import { Routes, Route } from "react-router-dom";
 import Showcase from "./components/showcase/Showcase";
 import Mark from "./components/mark/Mark";
-import { useState } from "react";
-import { icons } from "./icons";
+import Container from "./components/container/Container";
 
-const { AiOutlineMenu } = icons;
 function App() {
-    const [openMenu, setOpenMenu] = useState(true);
     document.title = "Roku - portfolio";
     return (
-        <div className="mx-auto font-poppins">
-            <span
-                className={`lg:hidden z-[99999] fixed border-first inline-block ${
-                    openMenu ? "ml-[90px] md:ml-[110px]" : "ml-[20px]"
-                } top-[30px]`}
-                onClick={() => setOpenMenu(!openMenu)}
-            >
-                <AiOutlineMenu size={32} />
-            </span>
-            <Sidebar openMenu={openMenu} />
-            <Home />
-            <About />
-            <Showcase />
-            <Mark />
+        <div className="mx-auto font-poppins bg-[#f7f8fa]">
+            <Routes>
+                <Route path={"/*"} element={<Container />}>
+                    <Route path="" element={<Home />} />
+                    <Route path="skill" element={<Skills />} />
+                    <Route path="showcase" element={<Showcase />} />
+                    <Route path="mark" element={<Mark />} />
+                </Route>
+            </Routes>
         </div>
     );
 }

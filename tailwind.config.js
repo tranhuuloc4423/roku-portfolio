@@ -3,7 +3,7 @@ module.exports = {
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
         screens: {
-            small: "375px",
+            sm: "375px",
             md: "768px",
             lg: "1024px",
         },
@@ -11,6 +11,23 @@ module.exports = {
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
                 akaya: ["Akaya Telivigala", "cursive"],
+            },
+            keyframes: {
+                "slide-up": {
+                    "0%": {
+                        // "-webkit-transform": "translateY(-100%)",
+                        // transform: "translateY(-100%)",
+                        bottom: "-100%",
+                    },
+                    "100%": {
+                        // "-webkit-transform": "translateY(0%)",
+                        // transform: "translateY(0%)",
+                        bottom: "0",
+                    },
+                },
+            },
+            animation: {
+                "slide-up": "slide-up 0.2s ease both;",
             },
         },
         colors: {
