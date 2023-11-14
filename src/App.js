@@ -8,7 +8,7 @@ import Mark from "./components/mark/Mark";
 import Container from "./components/container/Container";
 
 function App() {
-    document.title = "Roku - portfolio";
+    document.title = "Trần Hữu Lộc - portfolio";
     return (
         <div className="mx-auto font-poppins bg-[#f7f8fa]">
             <Routes>
