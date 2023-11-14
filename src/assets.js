@@ -211,7 +211,7 @@ const projectsTeam = [
         completed: (
             <>
                 <div>
-                    MMặc dù game không phải là một lĩnh vực mà tôi theo đuổi,
+                    Mặc dù game không phải là một lĩnh vực mà tôi theo đuổi,
                     việc phát triển game vẫn đem lại cho tôi niềm thú vị, vì vậy
                     tôi đã quyết định thực hiện một dự án về phát triển game. Dự
                     án này đã giúp tôi rèn luyện kỹ năng toán học và kiến thức
